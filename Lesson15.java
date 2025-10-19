@@ -7,6 +7,7 @@ public class Lesson15 {
         int width = 13;
         Rectangle myRect = new Rectangle(length, width);
         System.out.println(myRect.length + " " + myRect.width);
+        //// where is the answer?
 
         //2
         // public Rectangle(double length, int width)
@@ -18,12 +19,14 @@ public class Lesson15 {
         //4
         BankAccount account39 = new BankAccount(500.43);
         System.out.println(account39.balance);
+        //// missing answer
 
         //5
         // A class is like a cookie cutter, an object is like a cookie.
 
         //6
         // public School(int d, String m)
+        //// void should be omitted and school should have a capital S. 
 
         //7
         // one class, many objects
@@ -33,10 +36,12 @@ public class Lesson15 {
 
         //9
         // illegal (wrong parameter type)
+        //// should be boolean
 
         //10
         Band ourBnd = new Band(5, 4, "Mr. Perkins", 2000.0);
         System.out.println(ourBnd.numMembers);
+        //// missing answer
 
         //11
         // public BibleStory(String x, int y, double z)
